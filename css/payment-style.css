@@ -1,0 +1,102 @@
+div.phuck-coin-payment-details {
+    background-color: #EBE9EB;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+div.phuck-coin-payment-details div.phuck-address-details {
+    background-color: white;
+    padding: 10px;
+    border: 2px dashed #c0c0c0;
+    display: grid;
+    grid-template-columns: 255px auto;
+}
+a.phanes-phuck-ads img:hover {
+    opacity: 0.8;
+    border: 1px solid #716a91;
+}
+/* tablet */
+@media(min-width: 768px) {
+    div.phuck-coin-payment-details div.phuck-address-details {
+        display: block;
+    }
+}
+/* desktop */
+@media(min-width: 992px) {
+    div.phuck-coin-payment-details div.phuck-address-details {
+        background-color: white;
+        padding: 10px;
+        border: 2px dashed #c0c0c0;
+        display: grid;
+        grid-template-columns: 210px auto;
+    
+    }
+}
+@media(max-width: 768px) {
+    div.phuck-coin-payment-details div.phuck-address-details {
+        display: block;
+    }
+}
+div.phuck-coin-payment-details div.phuck-address-details div.coinAddress-info {
+    padding-top: 10px;
+}
+div.phuck-coin-payment-details div.phuck-address-details div.coinAddress-info div.store-address-group {
+    margin-top: 10px;
+}
+div.phuck-coin-payment-details div.phuck-address-details div.coinAddress-info div.store-address-group input {
+    font-weight: normal;
+    font-size: large;
+}
+div.phuck-coin-payment-details div.phuck-address-details div.coinAddress-info .awaiting-payment {
+    margin-top: 10px;
+    text-align: center;
+}
+div.phuck-coin-payment-details div.phuck-address-details div.coinAddress-info div#transaction-timer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 8px 13px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+/*QuickReset*/
+div.phuck-coin-payment-details div.phuck-address-details *{margin:0;box-sizing:border-box;}
+div.phuck-coin-payment-details div.phuck-address-details input, div.phuck-coin-payment-details div.phuck-address-details textarea{
+    font:14px/1.4 sans-serif;
+}
+
+div.phuck-coin-payment-details div.phuck-address-details .input-group{
+  display: table;
+  border-collapse: collapse;
+  width:100%;
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group > div{
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;  /* needed for Safari */
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group-icon {
+  background:#eee;
+  color: #777;
+  padding: 0 12px;
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group-icon:hover {
+    background:rgb(255, 255, 255);
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group-icon:active {
+    color:black;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group-area{
+  width:100%;
+}
+div.phuck-coin-payment-details div.phuck-address-details .input-group input{
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
